@@ -29,8 +29,9 @@
     .banner-section {
         background: none;
     }
-    .banner-content-container{
-        
+
+    .banner-content-container {
+
         background-image: url("../images/bg.png"), linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
         background-position: left;
         background-size: 100%;
@@ -44,31 +45,73 @@
     .banner-content {
         padding: 40px 0px;
     }
-    .banner-content h3{
+
+    .banner-content h3 {
         font-size: 25px;
     }
-    .banner-content h1{
+
+    .banner-content h1 {
         font-size: 40px;
     }
-    .common-paragraph{
+
+    .common-paragraph {
         font-size: 15px;
     }
+
     .btn-primary,
-    .btn-single{
+    .btn-single {
         padding: 10px 20px;
         margin: 5px;
     }
-    .online-games-section{
+
+    .online-games-section {
         width: 100%;
     }
 
-    .online-games-container{
-       grid-template-columns: 1fr;
-       justify-items: center;
+    .online-games-container {
+        grid-template-columns: 1fr;
+        justify-items: center;
     }
 
-    .primary-title{
+
+    .primary-title {
         font-size: 30px;
+    }
+
+
+
+    .instant-game-section {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+
+    .instant-game-container {
+        width: 100%;
+    }
+
+    .instant-game-img {
+        width: 65%;
+        margin: 20px auto;
+
+    }
+
+
+    .instant-game-description {
+        width: 100%;
+        text-align: center;
+    }
+
+    .parent-img {
+        max-width: 300px;
+        max-height: 350px;
+    }
+
+    .child-img {
+        max-width: 100px;
+        margin-top: 230px;
+        margin-left: -50px;
     }
 
 
@@ -107,8 +150,9 @@
     .banner-section {
         background: none;
     }
-    .banner-content-container{
-        
+
+    .banner-content-container {
+
         background-image: url("../images/bg.png"), linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
         background-position: left;
         background-size: 100%;
@@ -118,13 +162,32 @@
         justify-content: center;
 
     }
+
     .banner-content {
         padding: 60px 0px;
     }
-    
-    .online-games-container{
-        grid-template-columns: repeat(2,1fr);
+
+    .online-games-container {
+        grid-template-columns: repeat(2, 1fr);
         justify-items: center;
+    }
+
+
+    .instant-game-section{
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .instant-game-description {
+        width: 100%;
+        text-align: center;
+    }
+    .instant-game-container {
+        width: 100%;
+    }
+    .instant-game-img{
+        width: 66%;
+        margin: 30px auto;
     }
 
 }

@@ -167,7 +167,8 @@ nav {
     margin: 60px auto;
     text-align: center;
 }
-.online-games-section h3{
+
+.online-games-section h3 {
     margin-bottom: 20px;
 }
 
@@ -182,6 +183,49 @@ nav {
     max-height: 400px;
     margin-top: 40px;
 }
-.game-img{
+
+.game-img {
     width: 100%;
+}
+
+/* instant play section styles */
+
+.instant-game-section {
+    max-width: 1220px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.instant-game-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instant-game-description {
+    text-align: right;
+    max-width: 450px;
+}
+.instant-game-description h3{
+    margin-bottom: 10px;
+}
+
+.instant-game-img {
+    width: 37%;
+
+}
+
+.parent-img {
+    max-width: 400px;
+    max-height: 450px;
+}
+
+.child-img {
+    max-width: 170px;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: -70px;
 }
