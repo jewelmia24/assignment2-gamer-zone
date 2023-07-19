@@ -126,9 +126,30 @@
     }
     .policy-container{
         display: grid;
-        width: 80%;
         grid-template-columns: repeat(2,1fr);
+        width: 80%;
         margin: 20px auto;
+    }
+    .game-world-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        max-width: 80%;
+        margin: 10px auto;
+    }
+    .game-world-img-card{
+        padding: 0px;
+        width: 80px;
+        height: 30px;
+        gap: 0px;
+    }
+
+    .game-world-img-card img{
+        width: 30px;
+        height: 30px;
+
+    }
+    .game-world-img-card p{
+        font-size: 6px;
     }
 
 
