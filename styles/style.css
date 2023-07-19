@@ -335,3 +335,6 @@ footer {
     padding-bottom: 150px;
 
 }
+.social-link-container li{
+    list-style: none;
+}
