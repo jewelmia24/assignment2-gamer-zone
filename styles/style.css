@@ -184,6 +184,7 @@ nav {
     margin-top: 40px;
 }
 
+
 .game-img {
     width: 100%;
 }
@@ -277,7 +278,8 @@ footer {
 
 .footer-container {
     max-width: 800px;
-    margin: 100px auto;
+    margin: 0px auto;
+    margin-top: 100px;
 }
 
 

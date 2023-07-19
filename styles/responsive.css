@@ -65,7 +65,7 @@
     }
 
     .online-games-section {
-        width: 100%;
+        width: 80%;
     }
 
     .online-games-container {
@@ -99,7 +99,7 @@
 
 
     .instant-game-description {
-        width: 100%;
+        width: 80%;
         text-align: center;
     }
 
@@ -151,6 +151,8 @@
     .game-world-img-card p{
         font-size: 6px;
     }
+
+    
 
 
 }
