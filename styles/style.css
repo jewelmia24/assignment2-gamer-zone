@@ -175,7 +175,7 @@ nav {
 .online-games-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 8px;
+    gap: 10px;
 }
 
 .game-card {
@@ -185,8 +185,40 @@ nav {
 }
 
 
+
+
 .game-img {
     width: 100%;
+    position: relative;
+}
+
+.overlay-content{
+    border: 3px solid  #FF42A5;
+    position: absolute;
+    margin-top: -353px;
+    margin-left: 0px;
+    width: 294px;
+    height: 345px;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: #FFF;
+    opacity: 0;
+
+}
+
+.overlay-content:hover{
+    opacity: 1;
+    background-color: rgba(14, 13, 13,.7);
+}
+.overlay-content h3{
+    color: #FF42A5;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 5px;
 }
 
 /* instant play section styles */
@@ -254,10 +286,11 @@ nav {
 .game-world-img-card{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
     border-radius: 50px;
     background-color: white;
     padding: 12px 30px;
+    border: 1px solid white;
 }
 .game-world-container p{
     font-size: 12px;
